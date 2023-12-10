@@ -43,8 +43,8 @@ class _RegisterPageState extends State<RegisterPage> {
                 Image.asset(kLogo, height: 100),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    const Text(
+                  children: const [
+                    Text(
                       'Scholar Chat',
                       style: TextStyle(
                         fontSize: 32,
@@ -58,8 +58,8 @@ class _RegisterPageState extends State<RegisterPage> {
                   height: 75,
                 ),
                 Row(
-                  children: [
-                    const Text(
+                  children: const [
+                    Text(
                       'REGISTER',
                       style: TextStyle(
                         fontSize: 24,
@@ -85,7 +85,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     email = data;
                   },
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 10,
                 ),
                 CustomTextFormField(
@@ -94,7 +94,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     password = data;
                   },
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 CustomButton(
@@ -129,7 +129,7 @@ class _RegisterPageState extends State<RegisterPage> {
 
                   },
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 10,
                 ),
                 Row(
@@ -145,7 +145,7 @@ class _RegisterPageState extends State<RegisterPage> {
                       onTap: () {
                         Navigator.pop(context);
                       },
-                      child: Text(
+                      child: const Text(
                         ' Login',
                         style: TextStyle(
                           color: Color(0xffC7EDE6),

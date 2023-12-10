@@ -37,8 +37,8 @@ String? email,password;
                 Image.asset(kLogo ,height: 100,),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    const Text(
+                  children: const [
+                    Text(
                       'Scholar Chat',
                       style: TextStyle(
                         fontSize: 32,
@@ -50,8 +50,8 @@ String? email,password;
                 ),
                 const SizedBox(height: 75,),
                 Row(
-                  children: [
-                    const Text(
+                  children: const [
+                    Text(
                       'LOGIN',
                       style: TextStyle(
                         fontSize: 24,

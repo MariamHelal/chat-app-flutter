@@ -74,18 +74,18 @@ class ChatPage extends StatelessWidget {
                         _controler.animateTo(
                           0,
                           // _controler.position.maxScrollExtent,
-                          duration: Duration(seconds: 1),
+                          duration: const Duration(seconds: 1),
                           curve: Curves.fastOutSlowIn,
                         );
                       },
                       decoration: InputDecoration(
                         hintText: 'Send Message',
                         suffixIcon: IconButton(
-                          color: kPrimaryColor, onPressed: () {  }, icon: Icon(Icons.send,),
+                          color: kPrimaryColor, onPressed: () {  }, icon: const Icon(Icons.send,),
                         ),
                         enabledBorder: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(16),
-                            borderSide: BorderSide(
+                            borderSide: const BorderSide(
                               color: kPrimaryColor,
                             )),
                         border: OutlineInputBorder(
@@ -100,7 +100,7 @@ class ChatPage extends StatelessWidget {
               ),
             );
           } else {
-            return Text('Loading...');
+            return const Text('Loading...');
           }
         });
   }

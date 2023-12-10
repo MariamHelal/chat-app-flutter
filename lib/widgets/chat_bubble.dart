@@ -12,9 +12,9 @@ class ChatBubble extends StatelessWidget {
       alignment: Alignment.centerLeft,
       child: Container(
         //alignment: Alignment.centerLeft,
-        padding: EdgeInsets.only(left: 16, top: 16, bottom: 16, right: 30),
-        margin: EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-        decoration: BoxDecoration(
+        padding: const EdgeInsets.only(left: 16, top: 16, bottom: 16, right: 30),
+        margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+        decoration: const BoxDecoration(
           borderRadius: BorderRadius.only(
             topLeft: Radius.circular(32),
             topRight: Radius.circular(32),
@@ -24,7 +24,7 @@ class ChatBubble extends StatelessWidget {
         ),
         child: Text(
           message.message,
-          style: TextStyle(
+          style: const TextStyle(
             color: Colors.white,
           ),
         ),
@@ -42,9 +42,9 @@ class ChatBubbleForFriend extends StatelessWidget {
       alignment: Alignment.centerRight,
       child: Container(
         //alignment: Alignment.centerLeft,
-        padding: EdgeInsets.only(left: 16, top: 16, bottom: 16, right: 30),
-        margin: EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-        decoration: BoxDecoration(
+        padding: const EdgeInsets.only(left: 16, top: 16, bottom: 16, right: 30),
+        margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+        decoration: const BoxDecoration(
           borderRadius: BorderRadius.only(
             topLeft: Radius.circular(32),
             topRight: Radius.circular(32),
@@ -54,7 +54,7 @@ class ChatBubbleForFriend extends StatelessWidget {
         ),
         child: Text(
           message.message,
-          style: TextStyle(
+          style: const TextStyle(
             color: Colors.white,
           ),
         ),
